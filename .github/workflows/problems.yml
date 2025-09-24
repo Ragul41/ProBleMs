@@ -8,7 +8,7 @@ on:
     # CRON Expression: 'minute hour day_of_month month day_of_week'
     # '0 12 * * *' = Runs at 12:00 PM UTC every day.
     # IMPORTANT: GitHub Actions use UTC time zone. Adjust the 'hour' (12) to match your desired local time.
-    - cron: '0 12 * * *' 
+    - cron: '15 12 * * *'
 
 jobs:
   sync:
