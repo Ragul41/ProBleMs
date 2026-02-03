@@ -12,7 +12,7 @@ class Solution {
             return false;
         }
     }
-    private String build(String s){
+    String build(String s){
         Stack<Character> st=new Stack<>();
         StringBuilder sb=new StringBuilder();
         for(int i=0;i<s.length();i++){
